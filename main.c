@@ -164,6 +164,7 @@ vector_t *create_vectors(void)
     return vectors;
 }
 
+/* Crée le output buffer qui contiendra l'affichage du cube. */
 char **create_output_buffer(int output_size)
 {
     char **output;
@@ -181,8 +182,8 @@ char **create_output_buffer(int output_size)
 void set_vertices_width(int width)
 {
     /*
-    Multiplie les coordonnées des sommets du carré (VERTICES)
-    par la width pour l'adapter au terminal.
+        Multiplie les coordonnées des sommets du carré (VERTICES)
+        par la width pour l'adapter au terminal.
     */
 }
 
